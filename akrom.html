@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./akrom.css" />
+  </head>
+  <body>
+    <article class="card" aria-label="Product card">
+      <div class="card__media" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f3a3b5e0d6a8f5a7be3a0b5f4c8b9d7"
+          alt="Nature scene with a lake and mountains"
+        />
+      </div>
+
+      <div class="card__content">
+        <div>
+          <div class="card__meta">
+            <span class="chip">Design</span>
+            <span class="badge">New</span>
+            <span
+              style="
+                margin-left: auto;
+                font-weight: 700;
+                color: var(--muted);
+                font-size: 13px;
+              "
+              >$129</span
+            >
+          </div>
+
+          <h1 class="card__title">
+            Premium Mountain Retreat — Weekend Package
+          </h1>
+          <p class="card__desc">
+            Qisqa ta'rif: Tinch dam olish uchun mukammal paket. Tabiat bag'rida
+            joylashgan, zamonaviy qulayliklar, nonushta va ekskursiyalar kiradi.
+          </p>
+        </div>
+
+        <div class="card__footer">
+          <div style="display: flex; flex-direction: column; gap: 6px">
+            <div class="rating" aria-hidden="true">
+              ⭐ 4.9
+              <span style="color: var(--muted); font-weight: 500">(320)</span>
+            </div>
+            <div style="font-size: 13px; color: var(--muted)">
+              2 kecha, 3 faoliyat
+            </div>
+          </div>
+
+          <div class="actions" role="group" aria-label="Card actions">
+            <a class="btn btn--ghost" href="#" aria-label="Save">Saqlash</a>
+            <a class="btn btn--primary" href="#" aria-label="Buy now"
+              >Buyurtma berish</a
+            >
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
